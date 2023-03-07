@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-ch = 97
-while ch < 123:
-    print(" " + str(ch))
-    ch = ch+1
+for i in range(97, 123):
+    tableAsciiToAlphabet = chr(i)
+    asciiToAlpha = "" + tableAsciiToAlphabet
+    print("{}".format(asciiToAlpha), end='')
